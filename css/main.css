@@ -21,7 +21,6 @@
   color: black;
   box-shadow:
     220px 220px 0 0 currentColor;
-
   }
 
   .eyes {
@@ -36,3 +35,25 @@
       195px 320px 0 0 currentColor,
       300px 320px 0 0 currentColor;
   }
+
+.mouth {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 190px;
+    left: 175px;
+    border-radius: 100%;
+    color: green;
+    box-shadow:
+      220px 220px 0 0 white;
+}
+
+.mouth1 {
+  height: 45px;
+  top: 450px;
+  right: 140px;
+  width: 90px;
+  border-radius: 0 0 90px 90px;
+  background: white;
+  position: absolute;
+}
