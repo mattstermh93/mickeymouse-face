@@ -43,7 +43,7 @@
     top: 39px;
     left: 180px;
     border-radius: 100%;
-    color: grey;
+    color: white;
     box-shadow:
       195px 320px 0 0 currentColor,
       300px 320px 0 0 currentColor;
@@ -74,7 +74,7 @@
       220px 220px 0 0 currentColor;
 }
 
-.mouth1 {
+ .mouth1 { /* this mouth shifts */
   height: 45px;
   top: 450px;
   right: 140px;
