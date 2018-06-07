@@ -24,11 +24,11 @@
   }
 
   .eyes {
-    width: 50px;
+    width: 30px;
     height: 50px;
     position: absolute;
     top: 10px;
-    left: 170px;
+    left: 180px;
     border-radius: 100%;
     color: white; /* *this is overwritten by the .eyes class in the main.css file */
     box-shadow:
