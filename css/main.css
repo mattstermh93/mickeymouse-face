@@ -1,0 +1,25 @@
+.ears {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 100%;
+  color: black;
+  box-shadow:
+    220px 150px 0 0 currentColor,
+    510px 150px 0 0 currentColor;
+}
+
+.head {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 0px;
+  left: 60px;
+  border-radius: 100%;
+  color: black;
+  box-shadow:
+    220px 220px 0 0 currentColor;
+
+  }
