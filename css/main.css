@@ -30,22 +30,48 @@
     top: 10px;
     left: 180px;
     border-radius: 100%;
-    color: white; /* *this is overwritten by the .eyes class in the main.css file */
+    color: white;
+    box-shadow:
+      195px 320px 0 0 currentColor,
+      300px 320px 0 0 currentColor;
+  }
+
+  .innereye {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 39px;
+    left: 180px;
+    border-radius: 100%;
+    color: grey;
+    box-shadow:
+      195px 320px 0 0 currentColor,
+      300px 320px 0 0 currentColor;
+  }
+
+  .pupils {
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    top: 39px;
+    left: 190px;
+    border-radius: 100%;
+    color: black;
     box-shadow:
       195px 320px 0 0 currentColor,
       300px 320px 0 0 currentColor;
   }
 
 .mouth {
-    width: 110px;
+    width: 140px;
     height: 110px;
     position: absolute;
     top: 190px;
-    left: 175px;
+    left: 160px;
     border-radius: 100%;
-    color: green;
+    color: white;
     box-shadow:
-      220px 220px 0 0 white;
+      220px 220px 0 0 currentColor;
 }
 
 .mouth1 {
